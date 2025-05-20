@@ -1,10 +1,16 @@
 HELP.md
+# Ignore target directories entirely
 target/
+
+# Keep only Maven wrapper jar
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-*.application.properties
+
+# Ignore all class files
 *.class
+
+# Ignore all application properties except dev versions
+application.properties
+!application-dev.properties
 
 
 ### IntelliJ IDEA ###
