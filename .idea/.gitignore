@@ -1,4 +1,6 @@
-HELP.md
+# Default ignored files
+/shelf/
+/workspace.xml
 # Ignore target directories entirely
 target/
 
@@ -8,15 +10,7 @@ target/
 # Ignore all class files
 *.class
 
-# Ignore all application properties except dev versions
+# Ignore all application properties
 application.properties
-!application-dev.properties
-
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
 
 
